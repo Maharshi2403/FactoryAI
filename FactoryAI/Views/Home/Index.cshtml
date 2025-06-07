@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center ">
+    
+    <div class="home-intro" >
+        <h1 class="display-4">Welcome to best AI menufactory</h1>
+        <p>
+            AI Laboratry helps you to creat your own version AI agent which you can download and run in your machine. Customize response pipeline, training workflow according to your needs.
+        </p>
+    </div>
+    <div class="div-card">
+        <button onclick="location.href='@Url.Action("BuildModel", "Home")'" class="card">
+           
+                <h2>⚒ Build </h2>
+            
+            
+        </button>
+        <button class="card">
+            <h2>✈ Download</h2>
+            
+        </button>
+    </div>
+</div>
