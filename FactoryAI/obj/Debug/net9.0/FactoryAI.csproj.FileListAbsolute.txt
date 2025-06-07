@@ -17,7 +17,6 @@ C:\Users\Owner\Desktop\FactoryAI\FactoryAI\obj\Debug\net9.0\FactoryAI.RazorAssem
 C:\Users\Owner\Desktop\FactoryAI\FactoryAI\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Owner\Desktop\FactoryAI\FactoryAI\obj\Debug\net9.0\scopedcss\bundle\FactoryAI.styles.css
 C:\Users\Owner\Desktop\FactoryAI\FactoryAI\obj\Debug\net9.0\scopedcss\projectbundle\FactoryAI.bundle.scp.css
-C:\Users\Owner\Desktop\FactoryAI\FactoryAI\obj\Debug\net9.0\compressed\vuqh380t5c-lbzbtxqz2e.gz
 C:\Users\Owner\Desktop\FactoryAI\FactoryAI\obj\Debug\net9.0\compressed\cj4qpepmgs-61n19gt1b8.gz
 C:\Users\Owner\Desktop\FactoryAI\FactoryAI\obj\Debug\net9.0\compressed\2c6an9wgw7-xtxxf3hu2r.gz
 C:\Users\Owner\Desktop\FactoryAI\FactoryAI\obj\Debug\net9.0\compressed\ulgiw9tyhq-t1cqhe9u97.gz
@@ -95,3 +94,5 @@ C:\Users\Owner\Desktop\FactoryAI\FactoryAI\obj\Debug\net9.0\refint\FactoryAI.dll
 C:\Users\Owner\Desktop\FactoryAI\FactoryAI\obj\Debug\net9.0\FactoryAI.pdb
 C:\Users\Owner\Desktop\FactoryAI\FactoryAI\obj\Debug\net9.0\FactoryAI.genruntimeconfig.cache
 C:\Users\Owner\Desktop\FactoryAI\FactoryAI\obj\Debug\net9.0\ref\FactoryAI.dll
+C:\Users\Owner\Desktop\FactoryAI\FactoryAI\obj\Debug\net9.0\FactoryAI.sourcelink.json
+C:\Users\Owner\Desktop\FactoryAI\FactoryAI\obj\Debug\net9.0\compressed\vuqh380t5c-0r6ry1228j.gz

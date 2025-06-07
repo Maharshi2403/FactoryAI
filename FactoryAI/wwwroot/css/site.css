@@ -1,5 +1,8 @@
 /* General */
+
 body {
+  height: 100%;
+  width: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #121212;
@@ -11,6 +14,7 @@ body {
  
   padding: 1rem 2rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
 }
 
 .navbar-container {
@@ -40,7 +44,7 @@ body {
   margin-top: 100%;
   background-color: #1f1f1f;
   position: relative;
-  padding: 1rem 2rem;
+  
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 .footer-container{
@@ -71,5 +75,76 @@ body {
   padding: 5px;
 }
 .model{
+  
+  display: flex;
+  flex-direction: row;
+  background-color: #272727;
   color: white;
+  float: left;
+  height: 600px;
+  width: 1300px;
+  
+  border-radius: 5px;
+  
+}
+
+.model-search {
+  height: 600px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  border-radius: 5px;
+
+}
+
+
+
+.model-form{
+  height: 600px;
+  width: 400px;
+  border-radius: 5px;
+  background-color: #373636;
+}
+.search-bar{
+  display: flex;
+  width: 896px;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #393636;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.search-bar input{
+  border-radius: 10px;
+  background-color: black;
+  border: #454141 double 1px;
+  width: 550px;
+  height: 40px;
+  text-align: center;
+  color: white;
+  padding-left: 10px;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  width: 895px;
+  height: 50px;
+  
+}
+.search{
+  overflow-y: auto;     /* vertical scroll if needed */
+  overflow-x: hidden;   /* hide horizontal scroll */
+  scrollbar-width: none;      /* Firefox */
+  -ms-overflow-style: none;   /* IE 10+ */
+}
+
+.search::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari, Edge */
 }

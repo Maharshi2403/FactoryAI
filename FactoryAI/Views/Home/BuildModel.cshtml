@@ -1,7 +1,32 @@
-﻿@{
-ViewData["Title"] = "Build";
+﻿@model List<FactoryAI.Models.HuggingFaceModel>
+
+@{
+ViewData["Title"] = "Build AI model";
 }
 
 <div class="model">
-    ifnvdufnbdubnbdunb
+    <div class="model-form">
+        <form>
+            <!-- You can add form fields here later -->
+        </form>
+    </div>
+
+    <div class="model-search">
+        <div class="search-bar">
+            <form>
+                <input type="text" placeholder="🔍 Search model from Huggingface" />
+            </form>
+        </div>
+
+        <div class="search">
+            
+                @foreach (var item in Model)
+                {
+                <div class="list">
+                    <h4>@item.modelId</h4>
+                </div>
+                }
+            
+        </div>
+    </div>
 </div>
